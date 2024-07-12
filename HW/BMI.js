@@ -1,0 +1,13 @@
+let Weight = 150;
+let Height = 1.80;
+let BMI = Weight/Height**2;
+console.log("Индексът на телесна маса е: "+ BMI);
+console.log("Състояние: ");
+if (BMI<16) console.log("тежко недохранване");
+else if (BMI>=16 && BMI<=16.99) console.log("средно недохранване");
+else if (BMI>=17 && BMI<=18.49) console.log("леко недохранване");
+else if (BMI>=18.5 && BMI<=24.99) console.log("нормално тегло");
+else if (BMI>=25 && BMI<=29.99) console.log("предзатлъстяване");
+else if (BMI>=30 && BMI<=34.99) console.log("затлъстяване I степен");
+else if (BMI>=35 && BMI<=39.99) console.log("затлъстяване II степен");
+else console.log("затлъстяване III степен");
